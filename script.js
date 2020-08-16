@@ -18,8 +18,8 @@ function start(i) {
     if (progress <= random) {
       percent.innerHTML = parseInt(progress) + "%";
       progressing.getElementsByClassName.width = progress + "%";
-      margin.getElementsByClassName.left=progress+"%";
-      requestAnimationFrame(grow)
+      margin.getElementsByClassName.left = progress + "%";
+      requestAnimationFrame(grow);
     }
   }
 }
