@@ -54,3 +54,12 @@ body{
     width: 100%;
     margin: 50px auto;
 }
+
+.progress .progress-bar{
+    position: absolute;
+    left: 150px;
+    width: 60%;
+    height: 15px;
+    border-radius: 30px;
+    background: rgba(226, 226, 226);
+}
