@@ -34,3 +34,13 @@ body{
     font-size: 18px;
     letter-spacing: 1px;
 }
+.progress-bar span{
+    position: absolute;
+    transform: translateX(-20px) translateX(-10px);
+    left: 0;
+    width: 25px;
+    height: 25px;
+    background: white;
+    border: 6px solid rgba(255, 0, 85);
+    border-radius: 50%;
+}
